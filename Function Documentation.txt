@@ -1,0 +1,76 @@
+"""functions.py Usage"""
+
+### Check the convergence of the energy
+with state.State('file path', quiet=True) as p_state:
+    functions.energy_test_parameters(p_state, ...) ### Set the output file path 
+                                                   ### Need to set temperature by self
+                                                   ### Using the default energy log for checking
+    simulation.start(p_state, ...) ### Start the simulation  
+    functions.energy_visualization（functions.energy_file...） ### Visualize the energy convergence
+                                                               ### Test the convergence of the energy of average moving
+
+
+### Visualize the energy convergence
+functions.energy_visualization('file path') ### Visualize the energy convergence
+
+
+### Access the energy log data
+functions.energy_reader('file path') ### Get the energy log data
+
+
+### Magnetization versus temperature Warming up
+with state.State('file path', quiet=True) as p_state:
+    configuration.plus_z(p_state) ### Initially should have a single domain
+    functions.magnetization_visualization_warmup(p_state, ...) ### Visualize the magnetization versus temperature
+
+
+### Magnetization versus temperature Cooling down
+with state.State('file path', quiet=True) as p_state:
+    ### Initially should have a random configuration
+    functions.magnetization_visualization_cooldown(p_state, ...) ### Visualize the magnetization versus temperature
+
+
+###Access the magnetization data
+functions.magnetization_reader('file path') ### Get the magnetization log data
+                                            ### return value is T_range, magnetization
+
+
+### Spin structure versus temperature Warming up
+with state.State('file path', quiet=True) as p_state:
+    functions.spin_warmup(p_state, ...) ### Save the spin structure versus temperature
+
+
+### Visualize the whole spin structure versus temperature
+functions.spin_total_visualization('file path')    ### Visualize the whole spin structure versus temperature
+
+
+### Visualize the spin structure at a specific temperature
+### Optional, visualize the spin structure of a specific column
+functions.spin_2D_transform('file path', temperature) ### Transform the spin data at a specific temperature
+functions.spin_y_visualization('file path', column=None) ### Visualize the spin structure at a specific column
+                                                         ### Column should be a list
+                                                         ### If column is not given, visualize the whole columns
+functions.spin_y_visualization_rows(spin_dictionary, column, row) ### Visualize the spin structure at a specific column and row range
+                                                                 ### Column should be a number
+                                                                 ### Row should be a list, with the first item the first row, 
+                                                                 second item the last row
+                                                              
+
+
+
+
+
+"""Spirit Path Change"""
+
+### First, remove spirit from site-packages
+### Then, add the spirit path to the system path
+import sys
+sys.path.append('spirit path') 
+## For example: sys.path.append(r'C:\\Users\\hao14\\Desktop\\spirit\\core\\python')
+
+
+
+
+
+
+
