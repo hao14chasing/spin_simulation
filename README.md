@@ -3,6 +3,8 @@ Hello everyone, please refer to this [link](https://drive.google.com/drive/folde
 
 # Main Goal
 The main goal is to use a publicity-accessible spin simulation code called *Spirit* to simulate the results obtained from the paper *Observation of a phase transition within the domain walls of ferromagnetic Co<sub>3</sub>Sn<sub>2</sub>S<sub>2</sub>*. In this paper, Lee suggested that "what sets this compound apart is the giant value of its dimensionless anisotropy factor, *K*", I want to use the code to reproduce the observation that spin transforms **Bloch Wall** to **Linear Wall** and verify if it is truly caused by giant value of dimensionless anisotropy factor. (●'◡'●)
+
+
 ![DancingDogGIF](https://github.com/user-attachments/assets/dad0b02c-72d9-4526-b841-2c8f42119f0c)
 
 
