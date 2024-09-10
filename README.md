@@ -11,6 +11,18 @@ Right now, I'm able to see a Bloch Wall
 
 The characterization of Linear Wall is still under investigation...
 
+# Hamiltonian
+In the absence of an applied magnetic field, ferromagnetic materials can be described by the following Hamiltonian:
+
+![image](https://github.com/user-attachments/assets/36df5be3-b9f5-4766-b5b7-791ec8589b76)
+
+
+Here, **$\mathbf{s}$** means the individual spin of unit length, **$i$** and **$j$** are lattice sites. The Hamiltonian form includes:
+1. The single-ion magnetic anisotropy, where **$\hat{K}_{j}$** are the axes of the uniaxial anisotropies of the basis cell with the anisotropy strength **$K_{j}$**.
+2. The symmetric exchange interaction, where **$J_{ij}$** denotes the symmetric exchange energy and **$\langle ij \rangle$** denotes the unique pairs of interacting spins **$i$** and **$j$**.
+3. The dipolar interaction, where **$\mu_{0}$** is vacuum permeability, **$\mu_{i}$** is dipole moment, and **$\hat{r}_{ij}$** denotes the unit vector of the bond connecting two spins.
+
+
 
 # Simulation
 ## Main Folder
