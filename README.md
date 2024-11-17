@@ -1,7 +1,7 @@
 # Link
-Hello everyone, please refer to this [link](https://drive.google.com/file/d/1lKIHMaaIsfRNZ7yES82_02Rk1B9-WIXC/view?usp=sharing) for a detailed description of my work :)
-Please refer to this [link](https://1drv.ms/p/c/aa1d360d744c3259/EWvUJgMmNIRApNO0yVku-U0Boyw3FFoagYQ5U2HESM_3PA?e=FHG5W8) for a detailed visualization.
-please refer to this [link](https://drive.google.com/drive/folders/1HZoNb6WUklaA5iSivsKnnZN-_pv9sPwQ?usp=sharing) for a more detailed simulation package.
+Hello everyone, please refer to this [link](https://drive.google.com/file/d/1lKIHMaaIsfRNZ7yES82_02Rk1B9-WIXC/view?usp=sharing) for a detailed description of my work :)  
+Please refer to this [link](https://1drv.ms/p/c/aa1d360d744c3259/EWvUJgMmNIRApNO0yVku-U0Boyw3FFoagYQ5U2HESM_3PA?e=FHG5W8) for a detailed visualization.  
+Please refer to this [link](https://drive.google.com/drive/folders/1HZoNb6WUklaA5iSivsKnnZN-_pv9sPwQ?usp=sharing) for a more detailed simulation package.
 
 
 # Main Goal
